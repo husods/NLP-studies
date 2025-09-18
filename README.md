@@ -12,7 +12,7 @@ A multi-model sentiment analysis system for **Azerbaijani**, a low-resource lang
 - **Explainable AI:** SHAP visualizations for Logistic Regression predictions  
 - **High Performance:** XLM-RoBERTa achieves 85% accuracy, 0.84 macro F1-score  
 - **Dataset:** 55,000+ reviews used in the project (not included)  
-- **Web Interface:** Flask app designed for real-time predictions and explanations
+- **Web Interface:** Flask app provides a user-friendly interface that allows users to input text and see **real-time predictions from all three models simultaneously**, with SHAP-based explanations for Logistic Regression
 
 ---
 
@@ -23,8 +23,6 @@ Since the model weights and datasets are **not included**, you can:
 1. Explore the **implementation of models and algorithms** in the code  
 2. Adapt the pipeline to your **own datasets**  
 3. Examine the **Flask app structure** and extend it for your use case
-
-> For full methodology, model details, and performance metrics, refer to the **Project Report**.
 
 ---
 
